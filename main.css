@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+* {
+    /* text-align: center; */
+    font-family: 'Caveat', cursive;
+    /* background-color: rgb(242, 235, 191); */  
+    background-color: red;
+
+}
+
+.row {
+    /* display: flex; */
+    /* height: auto; */
+    /* justify-content: center; */
+}
+  
+.box-image {
+    flex: 90%;
+
+}
+
+.text {
+    position: relative;
+    /* right: 30%; */
+    font-size:6vw;
+    background: yellowgreen;
+}
+
+.text h1 {
+    background: yellowgreen;
+}
+
+
+/* .menu-boxes2 {
+    position: relative;
+    right: 300px; 
+    font-size:6vw;
+}
+
+.tester {
+    border: 150px solid transparent;
+    padding: 15px;
+    border-image-repeat: stretch;
+    /* border-image-slice: 10;
+    border-image: url(pictures/green-box1.jpg);
+} */
+
+
+
+
+
+.monthHeader {
+    font-size: 30px;
+    text-decoration: rgb(240, 96, 96) dotted underline;
+}
+
+.augBox {
+    width: 800px;
+    border: 10px solid rgb(67, 118, 128);
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.julyBox {
+    width: 800px;
+    border: 10px solid rgb(67, 118, 128);
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    background-image:  url("pictures/star.png") ;
+    background-size: 5%;
+    background-repeat: no-repeat;
+	background-position: left center;;
+    margin: 0;
+    padding: 5px 20px 5px 20px;
+	list-style: none;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
