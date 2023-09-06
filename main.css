@@ -1,60 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
 * {
-    /* text-align: center; */
     font-family: 'Caveat', cursive;
-    /* background-color: rgb(242, 235, 191); */  
-    background-color: red;
-
+    background-color: rgb(242, 235, 191);  
+    /* background-color: red; */
 }
 
-.row {
-    /* display: flex; */
-    /* height: auto; */
-    /* justify-content: center; */
-}
-  
-.box-image {
-    flex: 90%;
-
+.row,
+.header {
+    text-align: center;
 }
 
-.text {
+.row div {
     position: relative;
-    /* right: 30%; */
-    font-size:6vw;
-    background: yellowgreen;
+    font-size:3vw;
+    background: url(pictures/green-box1.jpg) no-repeat center;
+    background-size: contain;
+    height: 250px;
+    width: 500px;
+    /* height: 20%;
+    width: 44%; */
+    text-align: center;
+    display: inline-block;
+    padding-top: calc(286px/2);
 }
 
-.text h1 {
-    background: yellowgreen;
+.text a {
+    background: url(pictures/green-box1.jpg);
 }
 
 
-/* .menu-boxes2 {
-    position: relative;
-    right: 300px; 
-    font-size:6vw;
+/*  */
+.navigation {
+    text-align: center;
 }
 
-.tester {
-    border: 150px solid transparent;
-    padding: 15px;
-    border-image-repeat: stretch;
-    /* border-image-slice: 10;
-    border-image: url(pictures/green-box1.jpg);
-} */
-
-
-
-
+.navigation a {
+    padding: 20px 40px;
+    font-size: 2vw;
+}
 
 .monthHeader {
     font-size: 30px;
     text-decoration: rgb(240, 96, 96) dotted underline;
+    text-align: center;
 }
 
-.augBox {
+.monthBox div {
     width: 800px;
     border: 10px solid rgb(67, 118, 128);
     padding: 20px;
@@ -62,15 +54,6 @@
     margin-left: auto;
     margin-right: auto;
 
-}
-
-.julyBox {
-    width: 800px;
-    border: 10px solid rgb(67, 118, 128);
-    padding: 20px;
-    margin: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 li {
