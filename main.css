@@ -29,8 +29,6 @@
     background: url(pictures/green-box1.jpg);
 }
 
-
-/*  */
 .navigation {
     text-align: center;
 }
@@ -53,7 +51,35 @@
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
+}
 
+.about-me {
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+
+  }
+
+.about-me div {
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    line-height: normal;
+  }
+
+.about-me img {
+    width: 300px;
+    line-height: normal;
+  }
+
+.how-im-doing {
+    /* display: inline-block; */
+    text-align: center;
+    padding: 20px;
+}
+
+.how-im-doing div {
+    /* display: inline-block; */
 }
 
 li {
